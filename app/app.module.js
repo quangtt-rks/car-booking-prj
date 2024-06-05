@@ -1,5 +1,8 @@
 'use strict';
 
+// import myApp from './drivers/myApp'
+
+// Define the `phonecatApp` module
 angular.module('phonecatApp', [
   'ngAnimate',
   'ngRoute',
@@ -9,4 +12,5 @@ angular.module('phonecatApp', [
   'scheduleList',
   'passengerForm',
   'userLogin'
+  // 'myApp'
 ]);

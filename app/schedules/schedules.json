@@ -1,0 +1,523 @@
+[
+  {
+    "id": 1,
+    "BKS": "29k-888.88",
+    "line": "HA Noi - Quang Ninh",
+    "total_pepple": 32,
+    "start_time": "0:15 - 25/6/2024",
+    "estimate_time": "2 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "AB910112"
+  },
+  {
+    "id": 2,
+    "BKS": "30A-999.99",
+    "line": "HA Noi - HCM",
+    "total_pepple": 45,
+    "start_time": "0:30 - 26/6/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "HC910112"
+  },
+  {
+    "id": 3,
+    "BKS": "29B-666.66",
+    "line": "HA Noi - HCM",
+    "total_pepple": 45,
+    "start_time": "0:45 - 26/6/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "HC82112"
+  },
+  {
+    "id": 4,
+    "BKS": "31C-777.77",
+    "line": "HA Noi - Bac Giang",
+    "total_pepple": 20,
+    "start_time": "1:00 - 27/6/2024",
+    "estimate_time": "2.5 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "BG201124"
+  },
+  {
+    "id": 5,
+    "BKS": "32D-555.55",
+    "line": "HA Noi - Hai Phong",
+    "total_pepple": 38,
+    "start_time": "1:15 - 28/6/2024",
+    "estimate_time": "2.5 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "HP281124"
+  },
+  {
+    "id": 6,
+    "BKS": "33E-444.44",
+    "line": "HA Noi - Lao Cai",
+    "total_pepple": 28,
+    "start_time": "1:30 - 29/6/2024",
+    "estimate_time": "4 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "LC291124"
+  },
+  {
+    "id": 7,
+    "BKS": "34F-333.33",
+    "line": "HA Noi - Da Nang",
+    "total_pepple": 42,
+    "start_time": "1:45 - 30/6/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "DN301124"
+  },
+  {
+    "id": 8,
+    "BKS": "35G-222.22",
+    "line": "HA Noi - Hue",
+    "total_pepple": 36,
+    "start_time": "2:00 - 1/7/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "HU107124"
+  },
+  {
+    "id": 9,
+    "BKS": "36H-111.11",
+    "line": "HA Noi - Hoa Binh",
+    "total_pepple": 24,
+    "start_time": "2:15 - 2/7/2024",
+    "estimate_time": "2 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "HB207124"
+  },
+  {
+    "id": 10,
+    "BKS": "37I-999.98",
+    "line": "HA Noi - Vinh Phuc",
+    "total_pepple": 18,
+    "start_time": "2:30 - 3/7/2024",
+    "estimate_time": "1.5 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "VP307124"
+  },
+  {
+    "id": 11,
+    "BKS": "38J-888.87",
+    "line": "HA Noi - Phu Tho",
+    "total_pepple": 30,
+    "start_time": "2:45 - 4/7/2024",
+    "estimate_time": "2.5 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "PT407124"
+  },
+  {
+    "id": 12,
+    "BKS": "39K-777.76",
+    "line": "HA Noi - Thai Nguyen",
+    "total_pepple": 26,
+    "start_time": "3:00 - 5/7/2024",
+    "estimate_time": "2 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "TN507124"
+  },
+  {
+    "id": 13,
+    "BKS": "40L-666.65",
+    "line": "HA Noi - Ninh Binh",
+    "total_pepple": 35,
+    "start_time": "3:15 - 6/7/2024",
+    "estimate_time": "2.5 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "NB607124"
+  },
+  {
+    "id": 14,
+    "BKS": "41M-555.54",
+    "line": "HA Noi - Thanh Hoa",
+    "total_pepple": 33,
+    "start_time": "5:55 - 7/7/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "TH707124"
+  },
+  {
+    "id": 15,
+    "BKS": "42N-444.43",
+    "line": "HA Noi - Nghe An",
+    "total_pepple": 27,
+    "start_time": "5:50 - 8/7/2024",
+    "estimate_time": "2 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "NA807124"
+  },
+  {
+    "id": 16,
+    "BKS": "43O-333.32",
+    "line": "HA Noi - Ha Tinh",
+    "total_pepple": 21,
+    "start_time": "6:00 - /7/2024",
+    "estimate_time": "2.5 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "HT907124"
+  },
+  {
+    "id": 17,
+    "BKS": "44P-222.21",
+    "line": "HA Noi - Quang Tri",
+    "total_pepple": 29,
+    "start_time": "6:25 - 10/7/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "QT1007124"
+  },
+  {
+    "id": 18,
+    "BKS": "45Q-111.10",
+    "line": "HA Noi - Quang Binh",
+    "total_pepple": 22,
+    "start_time": "8:00 - 11/7/2024",
+    "estimate_time": "2 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "QB1107124"
+  },
+  {
+    "id": 19,
+    "BKS": "46R-999.97",
+    "line": "HA Noi - Thua Thien Hue",
+    "total_pepple": 31,
+    "start_time": "9:15 - 12/7/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "TTH1207124"
+  },
+  {
+    "id": 20,
+    "BKS": "47S-888.96",
+    "line": "HA Noi - Da Nang",
+    "total_pepple": 25,
+    "start_time": "10:30 - 13/7/2024",
+    "estimate_time": "2.5 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "DN1307124"
+  },
+  {
+    "id": 1,
+    "BKS": "29k-888.88",
+    "line": "HA Noi - Quang Ninh",
+    "total_pepple": 32,
+    "start_time": "0:15 - 25/6/2024",
+    "estimate_time": "2 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "AB910112"
+  },
+  {
+    "id": 2,
+    "BKS": "30A-999.99",
+    "line": "HA Noi - HCM",
+    "total_pepple": 45,
+    "start_time": "0:30 - 26/6/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "HC910112"
+  },
+  {
+    "id": 3,
+    "BKS": "29B-666.66",
+    "line": "HA Noi - HCM",
+    "total_pepple": 45,
+    "start_time": "0:45 - 26/6/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "HC82112"
+  },
+  {
+    "id": 4,
+    "BKS": "31C-777.77",
+    "line": "HA Noi - Bac Giang",
+    "total_pepple": 20,
+    "start_time": "1:00 - 27/6/2024",
+    "estimate_time": "2.5 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "BG201124"
+  },
+  {
+    "id": 5,
+    "BKS": "32D-555.55",
+    "line": "HA Noi - Hai Phong",
+    "total_pepple": 38,
+    "start_time": "1:15 - 28/6/2024",
+    "estimate_time": "2.5 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "HP281124"
+  },
+  {
+    "id": 6,
+    "BKS": "33E-444.44",
+    "line": "HA Noi - Lao Cai",
+    "total_pepple": 28,
+    "start_time": "1:30 - 29/6/2024",
+    "estimate_time": "4 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "LC291124"
+  },
+  {
+    "id": 7,
+    "BKS": "34F-333.33",
+    "line": "HA Noi - Da Nang",
+    "total_pepple": 42,
+    "start_time": "1:45 - 30/6/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "DN301124"
+  },
+  {
+    "id": 8,
+    "BKS": "35G-222.22",
+    "line": "HA Noi - Hue",
+    "total_pepple": 36,
+    "start_time": "2:00 - 1/7/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "HU107124"
+  },
+  {
+    "id": 9,
+    "BKS": "36H-111.11",
+    "line": "HA Noi - Hoa Binh",
+    "total_pepple": 24,
+    "start_time": "2:15 - 2/7/2024",
+    "estimate_time": "2 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "HB207124"
+  },
+  {
+    "id": 10,
+    "BKS": "37I-999.98",
+    "line": "HA Noi - Vinh Phuc",
+    "total_pepple": 18,
+    "start_time": "2:30 - 3/7/2024",
+    "estimate_time": "1.5 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "VP307124"
+  },
+  {
+    "id": 11,
+    "BKS": "38J-888.87",
+    "line": "HA Noi - Phu Tho",
+    "total_pepple": 30,
+    "start_time": "2:45 - 4/7/2024",
+    "estimate_time": "2.5 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "PT407124"
+  },
+  {
+    "id": 12,
+    "BKS": "39K-777.76",
+    "line": "HA Noi - Thai Nguyen",
+    "total_pepple": 26,
+    "start_time": "3:00 - 5/7/2024",
+    "estimate_time": "2 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "TN507124"
+  },
+  {
+    "id": 13,
+    "BKS": "40L-666.65",
+    "line": "HA Noi - Ninh Binh",
+    "total_pepple": 35,
+    "start_time": "3:15 - 6/7/2024",
+    "estimate_time": "2.5 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "NB607124"
+  },
+  {
+    "id": 14,
+    "BKS": "41M-555.54",
+    "line": "HA Noi - Thanh Hoa",
+    "total_pepple": 33,
+    "start_time": "5:55 - 7/7/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "TH707124"
+  },
+  {
+    "id": 15,
+    "BKS": "42N-444.43",
+    "line": "HA Noi - Nghe An",
+    "total_pepple": 27,
+    "start_time": "5:50 - 8/7/2024",
+    "estimate_time": "2 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "NA807124"
+  },
+  {
+    "id": 16,
+    "BKS": "43O-333.32",
+    "line": "HA Noi - Ha Tinh",
+    "total_pepple": 21,
+    "start_time": "6:00 - /7/2024",
+    "estimate_time": "2.5 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "HT907124"
+  },
+  {
+    "id": 17,
+    "BKS": "44P-222.21",
+    "line": "HA Noi - Quang Tri",
+    "total_pepple": 29,
+    "start_time": "6:25 - 10/7/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "QT1007124"
+  },
+  {
+    "id": 18,
+    "BKS": "45Q-111.10",
+    "line": "HA Noi - Quang Binh",
+    "total_pepple": 22,
+    "start_time": "8:00 - 11/7/2024",
+    "estimate_time": "2 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "QB1107124"
+  },
+  {
+    "id": 19,
+    "BKS": "46R-999.97",
+    "line": "HA Noi - Thua Thien Hue",
+    "total_pepple": 31,
+    "start_time": "9:15 - 12/7/2024",
+    "estimate_time": "3 hour",
+    "break_time": {
+      "yes": false,
+      "no": true
+    },
+    "trip_code": "TTH1207124"
+  },
+  {
+    "id": 20,
+    "BKS": "47S-888.96",
+    "line": "HA Noi - Da Nang",
+    "total_pepple": 25,
+    "start_time": "10:30 - 13/7/2024",
+    "estimate_time": "2.5 hour",
+    "break_time": {
+      "yes": true,
+      "no": false
+    },
+    "trip_code": "DN1307124"
+  }
+  
+]

@@ -14,8 +14,15 @@ h1 {
 
 .phones li {
   clear: both;
-  height: 115px;
   padding-top: 15px;
+}
+
+.pagination {
+  margin: 22px 40px;
+}
+
+.ng-binding {
+  margin:  14px 30px 16px;
 }
 
 .thumb {

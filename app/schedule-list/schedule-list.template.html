@@ -1,0 +1,36 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <p>
+        Search:
+        <input ng-model="$ctrl.query" />
+      </p>
+
+      <p>
+        Sort by:
+        <select ng-model="$ctrl.orderProp">
+          <option value="line">Line</option>
+          <option value="id">Newest</option>
+        </select>
+      </p>
+    </div>
+
+    <div class="col-md-10">
+      <ul class="phones">
+        <li ng-repeat="schedule in $ctrl.getCurrentPageSchedules() | filter:$ctrl.query | orderBy:$ctrl.orderProp"
+          class="thumbnail phone-list-item">
+          <p><i class="fa fa-bus"></i> &ensp; Line: {{ schedule.line }}</p>
+          <p><i class="fa fa-tag"></i>&ensp; BKS: {{ schedule.BKS }}</p>
+          <p><i class="fa fa-calendar-check-o"></i> &ensp; Start Time: {{ schedule.start_time }}</p>
+          <p><i class="fa fa-clock-o"></i> &ensp; Estimate Time: {{ schedule.estimate_time }}</p>
+        </li>
+      </ul>
+
+      <div class="pagination">
+        <button ng-click="$ctrl.previousPage()" ng-disabled="$ctrl.currentPage == 1">Previous</button>
+        <span>Page {{ $ctrl.currentPage }} of {{ $ctrl.numberOfPages() }}</span>
+        <button ng-click="$ctrl.nextPage()" ng-disabled="$ctrl.currentPage == $ctrl.numberOfPages()">Next</button>
+      </div>
+    </div>
+  </div>
+</div>

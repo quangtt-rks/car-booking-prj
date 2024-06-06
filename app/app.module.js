@@ -6,5 +6,6 @@ angular.module('phonecatApp', [
   'core',
   'phoneDetail',
   'phoneList',
-  'scheduleList'
+  'scheduleList',
+  'userLogin'
 ]);

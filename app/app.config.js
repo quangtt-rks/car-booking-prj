@@ -14,5 +14,9 @@ angular.
         when('/schedules', {
           template: '<schedule-list></schedule-list>'
         })
+        when('/users', {
+          template: '<user-login></user-login>'
+        }).
+        otherwise('/phone');
     }
   ]);

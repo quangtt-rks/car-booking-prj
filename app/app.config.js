@@ -13,10 +13,13 @@ angular.
         }).
         when('/schedules', {
           template: '<schedule-list></schedule-list>'
-        })
+        }).
+        when('/passenger', {
+          template: '<passenger-form></passenger-form>'
+        }).
         when('/users', {
           template: '<user-login></user-login>'
         }).
-        otherwise('/phone');
+        otherwise('/phones');
     }
   ]);

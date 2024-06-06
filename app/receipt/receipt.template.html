@@ -1,0 +1,17 @@
+<h1>Receipt</h1>
+
+<p><label>Customer name:</label> {{$ctrl.passengerName}}</p>
+<p><label>Customer phone number:</label> {{$ctrl.passengerPhone}}</p>
+<p><label>Bus route:</label> {{$ctrl.passengerRoute}}</p>
+<p><label>Pickup time:</label> {{$ctrl.passengerPickupTime}}</p>
+<p><label>Time slot:</label> {{$ctrl.passengerTimeSlot}}</p>
+<p><label>Pickup place:</label> {{$ctrl.passengerPickupPlace}}</p>
+<p><label>Drop place:</label> {{$ctrl.passengerDropPlace}}</p>
+<p>
+    <img src="{{$ctrl.qrcode}}" />
+</p>
+
+<h3>Thank you!</h3>
+<p>
+    <a href="#!/passenger">Book another bus >></a>
+</p>

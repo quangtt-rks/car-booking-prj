@@ -14,5 +14,9 @@ angular.
         when('/schedules', {
           template: '<schedule-list></schedule-list>'
         })
+        when('/passenger', {
+          template: '<passenger-form></passenger-form>'
+        }).
+        otherwise('/phones');
     }
   ]);

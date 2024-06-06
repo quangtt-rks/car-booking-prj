@@ -1,0 +1,37 @@
+{
+    "routes": [
+        "Hanoi - Quang Ninh",
+        "Hanoi - Dien Bien",
+        "Hanoi - Son La",
+        "Hoa Binh - Lai Chau",
+        "Phu Tho - Ninh Binh"
+    ],
+    "pickupTime": [
+        "06:00",
+        "08:00",
+        "10:00",
+        "12:00",
+        "14:00",
+        "16:00",
+        "18:00",
+        "20:00",
+        "22:00"
+    ],
+    "timeSlot": [
+        "06:00 ~ 07:30",
+        "08:00 ~ 09:30",
+        "10:00 ~ 12:00"
+    ],
+    "pickupPlace": [
+        "Hanoi",
+        "Hoa Binh",
+        "Phu Tho",
+        "Ninh Binh"
+    ],
+    "dropPlace": [
+        "Quang Ninh",
+        "Ninh Binh",
+        "Hai Phong",
+        "Hai Duong"
+    ]
+}

@@ -15,6 +15,12 @@ angular.
         //   }
         //   console.log('hihiihi')
         // })
+        // userLogin.strings$.subscribe(string => {
+        //   $scope.$apply(() => {
+        //     $scope.displayedStrings.push(string);
+        //     console.log('Received:', string);
+        //   });
+        // });
 
         $scope.myFunc = function() {
           userLogin.login($scope.userName, $scope.phoneNumber)

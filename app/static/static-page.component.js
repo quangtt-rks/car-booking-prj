@@ -5,8 +5,8 @@ angular.
   module('staticPage').
   component('staticPage', {
     templateUrl: 'static/static-page.template.html',
-    controller: ['$scope', 'userLogin', '$location',
-      function staticPageController($scope,  userLogin, $location) {
+    controller: ['$scope', 'userLogin', '$location', 'intervalService', 'anotherService',
+      function staticPageController($scope,  userLogin, $location, intervalService, anotherService) {
         
         // $scope.ping = ''
         // userLogin.currentLogin$.subscribe((isAuthenticated) => {
@@ -58,6 +58,20 @@ angular.
         //       }
         //   }, 1000);
         // });
+        $scope.displayedStrings = [];
+        userLogin.strings$.subscribe(string => {
+          $scope.displayedStrings.push(string);
+        });
+
+        $scope.startInterval = function() {
+          console.log('click start interval service')
+          intervalService.start(anotherService);
+        }
+
+        $scope.stopInterval = function() {
+          console.log('click stop interval service')
+          intervalService.stop(anotherService);
+        }
 
       }
     ]

@@ -11,15 +11,16 @@ angular.
 
       let isAuthenticated = false;
       console.log(isAuthenticated)
-      $http.get('user-login/user.json').then(response => {
-        strings$.next(response.data.text);
-      });
+      // $http.get('user-login/user.json').then(response => {
+      //   strings$.next(response.data.text);
+      // });
 
       return {
-        // login(username, password) {
-        //   isAuthenticated = username === USERNAME && password === PASS;
-        //   console.log('zo', isAuthenticated)
-        //   return isAuthenticated;
+        login(username, password) {
+          isAuthenticated = username === USERNAME && password === PASS;
+          console.log('zo', isAuthenticated)
+          return isAuthenticated;
+        },
         // },
         // isAuthenticated() {
         //   return isAuthenticated;

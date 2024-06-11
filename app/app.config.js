@@ -20,6 +20,9 @@ angular.
         when('/users', {
           template: '<user-login></user-login>'
         }).
-        otherwise('/phones');
+        when('/users/index', {
+          template: '<static-page></static-page>'
+        })
+        // otherwise('/phones');
     }
   ]);

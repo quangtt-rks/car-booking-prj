@@ -6,15 +6,22 @@ angular.
     templateUrl: 'user-login/user-login.template.html',
     controller: ['$scope', '$location', 'userLogin',
       function UserLoginController($scope, $location, userLogin) {
-        this.userName = ''
-        this.phoneNumer = ''
-        this.myService = userLogin
-        // save data on localsotrage
-        $scope.myFunc = function () {
+        $scope.userName = '';
+        $scope.phoneNumber = '';
+
+        // userLogin.currentLogin$.subscribe((isAuthenticated) => {
+        //   if (isAuthenticated) {
+        //     console.log('hahah')
+        //   }
+        //   console.log('hihiihi')
+        // })
+
+        $scope.myFunc = function() {
+          userLogin.login($scope.userName, $scope.phoneNumber)
           localStorage.setItem('phonecatApp.passengerName', $scope.userName);
           localStorage.setItem('phonecatApp.passengerPhone', $scope.phoneNumber);
-          $location.path('/passenger');
-        }
+          $location.path('/users/index');
+        };
       }
     ]
-});
+  });

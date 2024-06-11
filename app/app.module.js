@@ -11,6 +11,7 @@ angular.module('phonecatApp', [
   'phoneList',
   'scheduleList',
   'passengerForm',
-  'userLogin'
+  'userLogin',
+  'staticPage'
   // 'myApp'
 ]);

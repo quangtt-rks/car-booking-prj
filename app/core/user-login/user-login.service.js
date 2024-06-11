@@ -2,31 +2,34 @@
 
 angular.
     module('core.userLogin').
-    factory('userLogin', ['$resource', 'rx',
-        function($resource, rx) {
-            console.log('Create service')
-            var subject = new rx.Subject(); 
-            var isOrdered = false;
+    factory('userLogin', ['$http', function($http) {
+      const USERNAME = 'thinhledz';
+      const PASS = '939';
+      const change$ = new rxjs.Subject();
+      // const currentLogin$ = change$.asObservable();
+      const strings$ = new rxjs.BehaviorSubject([]);
 
-            var busDataResource = $resource('buses/data.json', {}, {
-                query: {
-                    method: 'GET',
-                    isArray: true
-                }
-            });
+      let isAuthenticated = false;
+      console.log(isAuthenticated)
+      $http.get('user-login/user.json').then(response => {
+        strings$.next(response.data.text);
+      });
 
-            // busDataResource.fetchDump = function () {
-            //     return isOrdered;
-            // }
+      return {
+        // login(username, password) {
+        //   isAuthenticated = username === USERNAME && password === PASS;
+        //   console.log('zo', isAuthenticated)
+        //   return isAuthenticated;
+        // },
+        // isAuthenticated() {
+        //   return isAuthenticated;
+        // },
+        // getValue() {
+        //   change$.next(isAuthenticated)
+        // },
+        // currentLogin$,
+        strings$
+      };
+      
 
-            // busDataResource.set = function (d) {
-            //     isOrdered = d;
-            //     subject.onNext(d);
-            // }
-
-            // busDataResource.subscribe = function (o) {
-            //     return subject.subscribe(o);
-            // }
-
-            // return busDataResource;
-        }]);
+}]);

@@ -59,10 +59,14 @@ angular.
         //   }, 1000);
         // });
         $scope.displayedStrings = [];
+        //subscribe là một phương thức dùng để đăng ký (hoặc lắng nghe) các sự kiện hoặc dữ liệu được phát ra từ một Observable
         userLogin.strings$.subscribe(string => {
-          $scope.displayedStrings.push(string);
+          if(string.length > 0) {
+            $scope.displayedStrings.push(string);
+          }
         });
 
+        // khi bấm vào start trên màn hình sẽ gọi đến function startInterval ở intervalService
         $scope.startInterval = function() {
           console.log('click start interval service')
           intervalService.start(anotherService);

@@ -8,17 +8,18 @@ angular.module('core.interval', [])
 
     $http.get('phones/phones.json').then(response => {
       data = response.data;
-    console.log('Data from phones.json:', data);
-    console.log('Data from phones.json:', data);
-
     });
-    console.log('Data from phones.json:', data);
     return {
       // sau mỗi giây sẽ gọi đến function next  ở  anotherService với params là index ++, 
       start: function(anotherService) {
         let index = 0;
         intervalId = $interval(() => {
-          anotherService.next(phoneID);
+          if(typeof data[index] !== 'undefined' ) {
+            console.log('hahhahaha', data[index])
+            anotherService.next(data[index].id);
+          } else {
+            $interval.cancel(intervalId);
+          }
           index++;
         }, 1000);
       },

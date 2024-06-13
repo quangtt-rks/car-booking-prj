@@ -5,19 +5,24 @@ angular.
   module('staticPage').
   component('staticPage', {
     templateUrl: 'static/static-page.template.html',
-    controller: ['$scope', 'userLogin', '$location', 'intervalService', 'anotherService',
-      function staticPageController($scope,  userLogin, $location, intervalService, anotherService) {
+    controller: ['$scope', '$location', 'staticPageService', 'intervalService', 'anotherService', 'userLogin',
+      function staticPageController($scope, $location,  staticPageService, intervalService, anotherService, userLogin) {
         
-        // $scope.ping = ''
-        // userLogin.currentLogin$.subscribe((isAuthenticated) => {
-        //   if (isAuthenticated) {
-        //     window.alert("Hello A Thinhdzz")
-        //     $location.path('/passenger');
-        //   } else {
-        //     $location.path('/passenger')
-        //     window.alert("Hello bro hehehehehe");
-        //   }
-        // })
+        $scope.ping = ''
+        userLogin.currentLogin$.subscribe((isAuthenticated) => {
+          console.log('login login here')
+          if (isAuthenticated) {
+            $location.path('/passenger');
+            window.alert("Hello A Thinhdzz")
+          } else {
+            $location.path('/passenger')
+            window.alert("Hello bro hehehehehe");
+          }
+        })
+
+        $scope.getAuth = function(){
+          userLogin.getValue()
+        }
         
         /**
          * Given a JSON file
@@ -30,9 +35,7 @@ angular.
          * After login, at every second, display strings 0..N-1 to the view.
          * Target: 16:00
          */
-        // $scope.getAuth = function(){
-        //   userLogin.getValue()
-        // }
+
         /**
          * A service called IntervalService
          * when call IntervalService.start(anotherService) it will trigger anotherService.next() every 1 seconds
@@ -60,9 +63,10 @@ angular.
         // });
         $scope.displayedStrings = [];
         //subscribe là một phương thức dùng để đăng ký (hoặc lắng nghe) các sự kiện hoặc dữ liệu được phát ra từ một Observable
-        userLogin.strings$.subscribe(string => {
-          if(string.length > 0) {
-            $scope.displayedStrings.push(string);
+        staticPageService.phoneArr.subscribe(phone => {
+          console.log('call sv static p')
+          if(phone.length > 0) {
+            $scope.displayedStrings.push(phone);
           }
         });
 

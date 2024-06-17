@@ -5,12 +5,12 @@ angular.
   config(['$routeProvider',
     function config($routeProvider) {
       $routeProvider.
-        when('/phones', {
-          template: '<phone-list></phone-list>'
-        }).
-        when('/phones/:phoneId', {
-          template: '<phone-detail></phone-detail>'
-        }).
+        // when('/phones', {
+        //   template: '<phone-list></phone-list>'
+        // }).
+        // when('/phones/:phoneId', {
+        //   template: '<phone-detail></phone-detail>'
+        // }).
         when('/schedules', {
           template: '<schedule-list></schedule-list>'
         }).
@@ -20,6 +20,6 @@ angular.
         when('/users', {
           template: '<user-login></user-login>'
         }).
-        otherwise('/phones');
+        otherwise('/users');
     }
   ]);

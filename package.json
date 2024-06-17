@@ -1,9 +1,9 @@
 {
-  "name": "angular-phonecat",
+  "name": "simple-ride-hailing-application",
   "private": true,
-  "version": "0.0.0",
-  "description": "A tutorial application for AngularJS",
-  "repository": "https://github.com/angular/angular-phonecat",
+  "version": "1.0.0",
+  "description": "Simple Ride-Hailing Application",
+  "repository": "https://github.com/quangtt-rks/car-booking-prj",
   "license": "MIT",
   "engines": {
     "node": "20.x",

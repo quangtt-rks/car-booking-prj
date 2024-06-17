@@ -1,21 +1,25 @@
 {
-  "name": "angular-phonecat",
+  "name": "simple-ride-hailing-application",
   "private": true,
-  "version": "0.0.0",
-  "description": "A tutorial application for AngularJS",
-  "repository": "https://github.com/angular/angular-phonecat",
+  "version": "1.0.0",
+  "description": "Simple Ride-Hailing Application",
+  "repository": "https://github.com/quangtt-rks/car-booking-prj",
   "license": "MIT",
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  },
   "dependencies": {
-    "angular": "1.8.x",
-    "angular-animate": "1.8.x",
-    "angular-resource": "1.8.x",
-    "angular-route": "1.8.x",
-    "bootstrap": "3.3.x",
-    "jquery": "3.3.x",
+    "angular": "^1.8.3",
+    "angular-animate": "^1.8.3",
+    "angular-resource": "^1.8.3",
+    "angular-route": "^1.8.3",
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.7.1",
     "webpack": "^5.91.0"
   },
   "devDependencies": {
-    "angular-mocks": "1.8.x",
+    "angular-mocks": "^1.8.3",
     "cpx": "^1.5.0",
     "http-server": "^0.11.1",
     "jasmine-core": "^3.5.0",

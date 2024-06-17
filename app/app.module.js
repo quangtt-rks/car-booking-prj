@@ -11,6 +11,6 @@ angular.module('phonecatApp', [
   'phoneList',
   'scheduleList',
   'passengerForm',
-  'userLogin'
+  'userSignIn'
   // 'myApp'
 ]);

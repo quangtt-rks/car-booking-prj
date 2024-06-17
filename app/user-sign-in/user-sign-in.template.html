@@ -1,0 +1,18 @@
+<div class="body-form-login">
+    <div class="login-container">
+        <div class="login-header">
+            <h2>Login</h2>
+        </div>
+        <form ng-submit="$ctrl.submit()">
+            <div class="mb-3">
+                <label for="passengerName" class="form-label">Name</label>
+                <input id="passengerName" type="text" class="form-control" ng-model="$ctrl.username" required>
+            </div>
+            <div class="mb-3">
+                <label for="passengerPhoneNumber" class="form-label">Password</label>
+                <input id="passengerPhoneNumber" type="password" class="form-control" ng-model="$ctrl.password" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+    </div>
+</div>

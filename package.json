@@ -10,7 +10,7 @@
     "npm": "10.x"
   },
   "dependencies": {
-    "angular": "1.8.x",
+    "angular": "^1.8.3",
     "angular-animate": "1.8.x",
     "angular-resource": "1.8.x",
     "angular-route": "1.8.x",

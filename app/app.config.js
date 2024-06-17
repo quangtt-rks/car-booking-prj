@@ -17,9 +17,9 @@ angular.
         when('/passenger', {
           template: '<passenger-form></passenger-form>'
         }).
-        when('/users', {
-          template: '<user-login></user-login>'
+        when('/users/sign_in', {
+          template: '<user-sign-in></user-sign-in>'
         }).
-        otherwise('/users');
+        otherwise('/users/sign_in');
     }
   ]);
